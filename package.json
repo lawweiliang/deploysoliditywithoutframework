@@ -1,0 +1,18 @@
+{
+  "name": "deploywithoutframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "dependencies": {
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "solc": "^0.8.7-fixed"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
