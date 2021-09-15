@@ -19,9 +19,10 @@ contract MultiSignWallet {
     
     Transaction[] transactionList;
     
-    
+  
     event CreatedTransaction(uint transactionId, string message);
     event TransactionSent(Transaction transaction, string message);
+
     
     constructor(address[] memory _approverList, uint _minNoApproval){
         approverList = _approverList;

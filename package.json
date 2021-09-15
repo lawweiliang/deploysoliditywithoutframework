@@ -4,6 +4,8 @@
   "description": "",
   "main": "deploy.js",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "dotenv": "^10.0.0",
     "web3": "^1.5.2"
   },
   "devDependencies": {
