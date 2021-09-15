@@ -29,15 +29,3 @@ const data = solc.compile(JSON.stringify(input));
 const abiPath = path.resolve(__dirname, '../abi','abi.json');
 fs.writeFileSync(abiPath, data);
 console.log('abi.json was generated');
-
-/* //Read abi and bytecode
-const abiJason = JSON.parse(fs.readFileSync(abiPath, 'utf8'));
-
-const abi = abiJason.contracts['multisignwallet.sol'].MultiSignWallet.abi;
-const byteCode = abiJason.contracts['multisignwallet.sol'].MultiSignWallet.evm.bytecode.object;
-console.log('Get abi and bytecode');
-
-module.exports = {
-  abi: abi,
-  bytecode: '0x' + byteCode
-}; */
