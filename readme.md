@@ -32,3 +32,5 @@ Then, you can check the result over testnet rinkeby explorer or ganache.
 
 Over Rinkeby, you will see this
 https://prnt.sc/1s8gf48
+
+<img src="https://github.com/lawweiliang/deploysoliditywithoutframework/blob/main/doc/rinkebyResult.png" width="500">
